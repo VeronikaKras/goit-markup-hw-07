@@ -70,14 +70,30 @@ button {
     
             }
         }
+@media screen and (max-width:767px) {
+.menu {
+        display: none;
+    }
+    .contacts-font-normal {
+    display: none;
+}
+}
 
-        .menu {
-            display: none;
-        }
+.page-header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
-        .contacts-font-normal {
-            display: none;
-        }
+.main-header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+
+  
+
+  
     
 /* .container {
     width: 1158px;
