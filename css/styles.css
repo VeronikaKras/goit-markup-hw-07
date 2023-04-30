@@ -70,6 +70,14 @@ button {
     
             }
         }
+
+        .menu {
+            display: none;
+        }
+
+        .contacts-font-normal {
+            display: none;
+        }
     
 /* .container {
     width: 1158px;
