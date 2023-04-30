@@ -49,6 +49,46 @@ button {
         
     }
 
+
+
+   
+        /* .mobile-menu {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            background-color: red
+        } */
+   
+
+        .mobile-menu-container {
+            position: relative;
+            padding-left: 25px;
+            padding-top: 80px;
+            padding-bottom: 40px;
+        }
+        
+          .mobile-menu-close-btn {
+            background: transparent;
+border: 1px solid #E7E9FC;
+            padding: 0;
+            line-height: 0;
+            position: absolute;
+            top: 24px;
+            right: 24px;
+            display: flex;
+            justify-content: center;
+                align-items: center;
+                width: 24px;
+                height: 24px;
+                border-radius: 50%;
+          }
+
+
+                  
+                  
+
     @media screen and (min-width: 428px) {
         .container {
             width: 426px;
@@ -61,6 +101,9 @@ button {
         .container {
                 width: 766px;
                 
+            }
+            .mobile-menu-open {
+                display: none;
             }
     }
 
