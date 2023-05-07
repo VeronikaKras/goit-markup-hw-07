@@ -286,6 +286,22 @@ border: 1px solid #E7E9FC;
     padding: 120px 0;
     gap: 24px;
 }
+
+ .footer-back {
+     background-color: #2e2f42;
+     padding: 100px 0;
+ }
+ .footer-gap {
+     display: flex;
+     align-items: baseline;
+ }
+ .footer-content {
+     margin-right: 120px;
+ }
+
+ .form-footer {
+     display: flex;
+ }
         }
 
 
@@ -328,8 +344,17 @@ margin-right: auto;        }
   
 }
 
+.footer-content {
+    margin-right: auto;
+    margin-left: auto;
+}
+.footer-gap {
+    display: inline-block;
+}
 
-
+.subscribe-button {
+    margin-top: 16px;
+}
 }
 
 
@@ -393,6 +418,13 @@ margin-right: auto;        }
                     padding: 96px 0;
                     gap: 24px;
                 }
+
+  .footer-back {
+    background-color: #2e2f42;
+   padding: 96px 0;
+                
+                
+                                 }
 }
 
        
@@ -412,7 +444,13 @@ margin-right: auto;        }
 
         }
 
-        
+           .footer-content {
+               margin-right: 24px;
+           }
+                   .form-footer {
+                       display: flex;
+                   }
+                   
             
 }
 
@@ -423,7 +461,19 @@ margin-right: auto;        }
         width: calc((100% - 32px)/2);
 
     }
-       
+          .form-footer {
+              display: block;
+          }
+
+          .footer-back {
+                        text-align: center;
+          }
+            .footer-text-socail {
+                align-items: center;
+                text-align: center;
+            }
+  
+
     
 }
 
@@ -886,12 +936,12 @@ display: flex;
         color: var(--ocean-color);
      }
 
-     .footer-back {
+     /* .footer-back {
         background-color: #2e2f42;
         padding: 100px 0;
        
    
-     }
+     } */
 
 .footer-link {
     display: inline-block;
@@ -1006,9 +1056,9 @@ font-family: 'Roboto';
 
 
 
-.footer-content {
+/* .footer-content {
     margin-right: 120px;
-}
+} */
 .footer-media-block {
     margin-right: 80px;
 }
@@ -1018,9 +1068,9 @@ font-family: 'Roboto';
 }
 
 
-.footer-gap {
+/* .footer-gap {
     display: flex;
-align-items: baseline; }
+align-items: baseline; } */
 
    
     
@@ -1057,9 +1107,9 @@ font-family: 'Roboto';
     
 }
 
-.form-footer {
+/* .form-footer {
     display: flex;
-}
+} */
 
 .plane-icon {
    
