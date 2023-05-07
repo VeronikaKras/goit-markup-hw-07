@@ -252,6 +252,10 @@ border: 1px solid #E7E9FC;
 
                                                             
         @media screen and (min-width: 1158px) {
+
+            .menu {
+                    margin-left: 76px;
+                }
             .container {
                 width: 1158px;
     
@@ -443,6 +447,10 @@ margin-right: auto;        }
 
        
 @media screen and  (min-width:768px) and (max-width:1157px) {
+
+    .menu {
+        margin-left: 120px;
+    }
 .section-team {
         background-color: #F4F4FD;
         padding-top: 120px;
@@ -485,6 +493,10 @@ margin-right: auto;        }
 
    .email-footer-input {
        width: 264px;
+   }
+
+   .small-text-blocks {
+    width: 351px;
    }
                                                 }
            
@@ -529,6 +541,11 @@ margin-right: auto;        }
   
 .email-footer-input {
 width: 398px ;}
+
+.small-text-blocks {
+    width: 396px;
+    margin-bottom: 72px;
+}
 }
 
 
@@ -732,7 +749,6 @@ align-items: center;
               letter-spacing: 0.02em;
               color: var(--primary-text-color);
     
-              margin-bottom: 8px;
     
     
           }
