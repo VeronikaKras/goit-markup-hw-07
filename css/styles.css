@@ -608,7 +608,6 @@ align-items: center;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
-        margin-right: 76px;
      }
      .change-color-btn {
        font-family: 'Roboto', sans-serif;
@@ -919,9 +918,9 @@ display: flex;
             line-height: 1.5;
             letter-spacing: 0.02em;
             color:#F4F4FD;
-            margin-top: 16px;
-            margin-bottom: 16px;
+            margin: 0 auto;
             width: 264px;
+            text-align: left;
             
      }
 
