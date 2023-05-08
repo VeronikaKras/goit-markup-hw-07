@@ -91,6 +91,7 @@ border: 1px solid #E7E9FC;
                   
 
     @media screen and (min-width: 428px) {
+       
 .modal {
         position: absolute;
         width: 392px;
