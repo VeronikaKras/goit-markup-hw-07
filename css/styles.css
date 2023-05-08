@@ -44,8 +44,8 @@ button {
     }
 
     .container {
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 16px;
+        padding-right: 16px;
         
     }
 
@@ -92,21 +92,46 @@ border: 1px solid #E7E9FC;
     border: none;
     padding: 0;
     line-height: 0;
+    top: 24px;
+    right: 16px;
+    padding-bottom: 24px;
 }
                   
                   
 
     @media screen and (min-width: 428px) {
+
+        .effect-sol {
+                margin: 0 auto 72px;
+            }
+        
         .container {
             width: 426px;
             margin-left: auto;
             margin-right: auto;
         }
 
-        
+          .effect-sol {
+              font-weight: 700;
+    
+              text-align: center;
+              letter-spacing: 0.02em;
+          }
     }
 
     @media screen and (min-width: 768px) {
+
+
+
+
+.effect-sol {
+        font-size: 56px;
+        line-height: 1.07;
+        
+                margin: 0 auto 36px;
+            
+
+    }
 
         .section-effect-sol {
                 background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/imageshw07/bg_tablet.jpg);
@@ -124,6 +149,7 @@ border: 1px solid #E7E9FC;
                              display: flex;
                              align-items: center;
                              gap: 40px;
+                             margin-left: 120px;
                          }
 
                 .menu-link {
@@ -256,7 +282,9 @@ border: 1px solid #E7E9FC;
 
                                                             
         @media screen and (min-width: 1158px) {
-
+.effect-sol {
+                    margin: 0 auto 48px;
+}
 .section-effect-sol {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/imageshw04/bg1-hw4.jpg);
             padding: 188px 0;
@@ -390,11 +418,7 @@ margin-right: auto;        }
 
 
 
-.page-header-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+
 
 .main-header {
     padding-top: 24px;
@@ -529,7 +553,15 @@ background-size: cover;
             
 
 @media screen and (min-width:428px) and (max-width:767px) {
-    
+    .page-header-container {
+            display: flex;
+justify-content: space-between;       }
+    .effect-sol {
+    font-size: 36px;
+    line-height: 1.1;
+
+       text-transform: capitalize; 
+    }
 
     .cust-item {
         width: calc((100% - 32px)/2);
@@ -799,7 +831,6 @@ align-items: center;
             color: #FFFFFF;
            
                 max-width: 496px;
-                margin: 0 auto 48px;
 
      }
 
