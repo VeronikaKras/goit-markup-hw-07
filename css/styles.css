@@ -107,6 +107,10 @@ border: 1px solid #E7E9FC;
     }
 
     @media screen and (min-width: 768px) {
+
+        .section-effect-sol {
+                background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/imageshw07/bg_tablet.jpg);
+            }
         .container {
                 width: 766px;
                  
@@ -253,6 +257,10 @@ border: 1px solid #E7E9FC;
                                                             
         @media screen and (min-width: 1158px) {
 
+.section-effect-sol {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/imageshw04/bg1-hw4.jpg);
+            padding: 188px 0;
+    }
             .menu {
                     margin-left: 76px;
                 }
@@ -326,6 +334,10 @@ border: 1px solid #E7E9FC;
 
         
 @media screen and (max-width:767px) {
+.section-effect-sol {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/imageshw07/bg_mobile.jpg);
+
+}
 .menu {
         display: none;
     }
@@ -404,8 +416,22 @@ margin-right: auto;        }
         
 }
 
+.section-effect-sol {
+    background-color: #2E2F42;
+    background-repeat: no-repeat;
+    background-position: center;
+background-size: cover;
+    margin-left: auto;
+    margin-right: auto; }
 
 @media screen and (max-width:1157px) {
+
+    .section-effect-sol {
+            
+            padding: 112px 0;
+            
+    
+        }
      .cust-item {
             margin-bottom: 72px;
         }
@@ -549,10 +575,64 @@ width: 398px ;}
 }
 
 
-  
+ /* .section-effect-sol {
+     background-color: #2E2F42;
+     background-repeat: no-repeat;
+     background-position: center;
+     padding: 112px 0;
+     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/imageshw07/bg_mobile.jpg);
+     background-size: cover;
+     margin-left: auto;
+     margin-right: auto;
 
-  
-    
+ } */
+
+
+
+ @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px), screen and (min-resolution: 192dpi) and (max-width: 767px), screen and (min-resolution: 2dppx) and (max-width: 767px)
+ {
+    .section-effect-sol {
+background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/imageshw07/bg_mobile@2x.jpg);
+    }
+ }  
+
+
+  @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+  screen and (min-resolution: 192dpi) and (min-width: 768px),
+  screen and (min-resolution: 2dppx) and (min-width: 768px) {
+      .section-effect-sol {
+          background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/imageshw07/bg_tablet@2x.jpg);
+      }
+  }
+
+
+
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1158px),
+screen and (min-resolution: 192dpi) and (min-width: 1158px),
+screen and (min-resolution: 2dppx) and (min-width: 1158px) {
+    .section-effect-sol {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/imageshw07/bg_desk@2x.jpg);
+    }
+}
+
+
+
+
+/* .section-effect-sol {
+    max-width: 1440px;
+    background-color: #2E2F42;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 188px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/imageshw04/bg1-hw4.jpg);
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+
+} */
+
+
 /* .container {
     width: 1158px;
     margin-left: auto;
@@ -1080,18 +1160,7 @@ display: flex;
         display: flex;
         gap: 40px;
     } */
-    .section-effect-sol {
-        max-width: 1440px;
-        background-color: #2E2F42;
-        background-repeat: no-repeat;
-        background-position: center;
-        padding: 188px 0;
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/imageshw04/bg1-hw4.jpg);
-        background-size: cover;
-        margin-left: auto;
-        margin-right: auto;
-        
-    }
+    
 
     .visually-hidden {
         
