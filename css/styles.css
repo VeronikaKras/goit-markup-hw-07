@@ -506,9 +506,10 @@ background-size: cover;
         padding-top: 120px;
         padding-bottom: 120px;
     
-       
     }
-
+.four-items {
+    width: calc((100% - 48px)/2);
+}
    
         .cust-item {
             width: calc((100% - 96px)/3);
@@ -545,9 +546,7 @@ background-size: cover;
        width: 264px;
    }
 
-   .small-text-blocks {
-    width: 351px;
-   }
+   
                                                 }
            
             
@@ -1017,9 +1016,7 @@ display: flex;
 .filter-card:nth-child(3n) {
     margin-right: 0;
 }
-.four-items {
-    width: 264px;
-}
+
 
 
      .doing-section {
