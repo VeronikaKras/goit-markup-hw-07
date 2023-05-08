@@ -33,7 +33,9 @@ button {
     cursor: pointer;
 }
 
-
+.current {
+    color: var(--ocean-color);
+}
     body {
         font-family: 'Roboto', sans-serif;
         background-color:#FFFFFF;
