@@ -546,7 +546,7 @@ background-size: cover;
 }
    
         .cust-item {
-            width: calc((100% - 96px)/3);
+            width: calc((100% - 48px)/3);
     
         }
         
@@ -608,18 +608,7 @@ background-size: cover;
         }
     
     
-        .team-names {
-            background-color: #FFFFFF;
-            text-align: center;
-    
-            box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-                0px 1px 1px rgba(46, 47, 66, 0.16),
-                0px 2px 1px rgba(46, 47, 66, 0.08);
-            border-radius: 0px 0px 4px 4px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-    
+       
     
         .customers-list {
             gap: 16px;
@@ -653,7 +642,7 @@ justify-content: space-between;       }
     }
 
     .cust-item {
-        width: calc((100% - 32px)/2);
+        width: calc((100% - 16px)/2);
 
     }
           .form-footer {
@@ -809,8 +798,8 @@ align-items: center;
                 0px 1px 1px rgba(46, 47, 66, 0.16),
                 0px 2px 1px rgba(46, 47, 66, 0.08);
             border-radius: 0px 0px 4px 4px;
-         }
-
+margin-left: auto;
+    margin-right: auto;        }
 
     /* .main-header {
         
