@@ -665,7 +665,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
 
          .contact:focus {
             color: var(--ocean-color);
-         } */ 
+         }  
 
          .team-names {
             text-align: center;
