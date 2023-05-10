@@ -48,16 +48,12 @@ button {
     .container {
         padding-left: 16px;
         padding-right: 16px;
+        margin-left: auto;
+        margin-right: auto;
         
     }
 
 
-
-   
-     
-
-        
-        
           .mobile-menu-close-btn {
             background: transparent;
 border: 1px solid #E7E9FC;
@@ -122,8 +118,7 @@ address {
         
         .container {
             width: 426px;
-            margin-left: auto;
-            margin-right: auto;
+            
         }
 
           .effect-sol {
@@ -132,6 +127,7 @@ address {
               text-align: center;
               letter-spacing: 0.02em;
           }
+           
     }
 
     @media screen and (min-width: 768px) {
