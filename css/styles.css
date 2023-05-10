@@ -549,7 +549,7 @@ address {
 
 
 
-@media screen and (max-width:1158px) {
+@media screen and (max-width:1157px) {
 
     
 
@@ -615,6 +615,8 @@ address {
 .team-container {
     width: 584px;
 }
+
+
     .menu {
         margin-left: 120px;
     }
@@ -649,7 +651,7 @@ address {
             }
 
                         .subscribe-button {
-                            margin-left: 8px;
+                            margin-left: 24px;
                         }
 
    .email-footer-input {
@@ -1143,6 +1145,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
         gap: 24px;
                             align-items: center;
                             text-align: center;
+                            
     }
    
 
