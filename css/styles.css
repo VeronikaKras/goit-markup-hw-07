@@ -242,6 +242,11 @@ address {
       justify-content: space-between;
       gap: 24px;
   }
+
+
+ .page-header-container {
+     display: flex;}
+
     /* @media screen and (min-width: 428px) { */
        
 /* .modal {
@@ -348,7 +353,6 @@ address {
                                 }
 
  .page-header-container {
-                       display: flex;
                      align-items: center;
                    justify-content: space-between;
                                                                 }
@@ -650,12 +654,19 @@ address {
    
                                                 }
            
-            
+  @media screen and (max-width:767px) {
+.contacts-font-normal {
+        display: none;
+    }
+
+        .main-header {
+            padding-top: 24px;
+        }
+  }
+
 
 @media screen and (min-width:428px) and (max-width:767px) {
-    .main-header {
-        padding-top: 24px;
-    }
+    
 .team-container {
     width: 296px;
 }
@@ -666,10 +677,7 @@ address {
     
        
     
-        .contacts-font-normal {
-            display: none;
-        }
-    
+        
     
         .section-team {
             padding-top: 96px;
@@ -701,7 +709,6 @@ address {
             margin-top: 16px;
         }
     .page-header-container {
-            display: flex;
 justify-content: space-between;       }
     .effect-sol {
     font-size: 36px;
