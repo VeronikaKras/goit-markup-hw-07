@@ -1635,7 +1635,7 @@ align-items: flex-end;       }
         
 .mobile-menu {
     position: fixed;
-    max-width: 100%;
+    width: 100%;
     height: 100%;
     background-color: #fff;
     top: 0;
@@ -1674,7 +1674,7 @@ pointer-events: auto;
     padding-left: 25px;
     padding-top: 80px;
     padding-bottom: 40px;
-    width: 428px;
+    max-width: 428px;
     height: 100%;
     background-color: #ffffff;
 }
@@ -1766,4 +1766,15 @@ color: #404BBF;
 .socials-menu {
     gap: 56px;
     display: flex;
+}
+
+@media screen and (max-width: 410px) 
+               {
+                    .mobile-menu-number {
+font-size: 24px;
+                    }
+                                        .socials-menu {
+                                            gap: 24px;
+                                        }
+    
 }
