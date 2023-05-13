@@ -1529,6 +1529,16 @@ border-color: rgba(64, 75, 191, 1);
    
 
 
+/* НОВОЕ
+
+
+.modal-form-agreement {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 24px;
+} */
+
 
 
 
