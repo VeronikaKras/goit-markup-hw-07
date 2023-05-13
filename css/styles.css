@@ -1516,6 +1516,7 @@ position: absolute;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+    flex-shrink: 0;
 }
 
 .checkbox:checked + .icon-check {
