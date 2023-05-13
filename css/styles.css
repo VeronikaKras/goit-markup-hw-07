@@ -16,7 +16,8 @@
 
  .modal {
      position: absolute;
-     width: 290px;
+     width: 100%;
+     max-width: 408px;
      min-height: 584px;
      background-color: #FCFCFC;
      box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -204,8 +205,15 @@ address {
 width: 290px;
 }
 
- 
                    }
+
+            @media screen and (max-width: 387px) {
+.label-check {
+ font-size: 8px;
+}
+
+
+            }
            @media screen and (min-width: 428px)
             {
         .container {
@@ -214,10 +222,9 @@ width: 290px;
             margin-right: auto;
     
         } 
-        .modal {
-            width: 392px;
-            
-        }
+
+       
+       
     }
 
 .cust-link {
@@ -301,7 +308,21 @@ width: 290px;
 
  }
 
+.label-check {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: rgba(142, 143, 153, 1);
+    margin-top: 16px;
+    margin-bottom: 24px;
 
+}
   .doing-section {
 
       padding-bottom: 120px;
@@ -1461,21 +1482,7 @@ border: 1px solid rgba(46, 47, 66, 0.4);
     display: block;
 }
 
-.label-check {
-    display: flex;
-    text-align: center;
-    align-items: center;
-    font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 1.17;
-        letter-spacing: 0.04em;
-        color: rgba(142, 143, 153, 1);
-        margin-top: 16px;
-        margin-bottom: 24px;
-        
-}
+
 
 .modal-privacy-policy {
     
