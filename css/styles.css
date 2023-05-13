@@ -208,9 +208,9 @@ width: 290px;
                    }
 
             @media screen and (max-width: 387px) {
-.label-check {
+/* .label-check {
  font-size: 8px;
-}
+} */
 
 
             }
@@ -308,7 +308,7 @@ width: 290px;
 
  }
 
-.label-check {
+/* .label-check {
     display: flex;
     text-align: center;
     align-items: center;
@@ -322,7 +322,7 @@ width: 290px;
     margin-top: 16px;
     margin-bottom: 24px;
 
-}
+} */
   .doing-section {
 
       padding-bottom: 120px;
@@ -1484,13 +1484,13 @@ border: 1px solid rgba(46, 47, 66, 0.4);
 
 
 
-.modal-privacy-policy {
+/* .modal-privacy-policy {
     
     color: rgba(77, 90, 229, 1);
     margin-left: 4px ;
 
 
-}
+} */
 
 .icon-check {
     display: inline-block;
@@ -1505,7 +1505,7 @@ border: 1px solid rgba(46, 47, 66, 0.4);
 }
 
  
-.checkbox {
+/* .checkbox {
 position: absolute;
     width: 1px;
     height: 1px;
@@ -1517,15 +1517,15 @@ position: absolute;
     clip: rect(0 0 0 0);
     overflow: hidden;
     flex-shrink: 0;
-}
+} */
 
-.checkbox:checked + .icon-check {
+/* .checkbox:checked + .icon-check {
 background-color: rgba(64, 75, 191, 1);
 background-image: url(../images/imageshw06/click.svg);
 background-size: contain;
 background-origin: border-box;
 border-color: rgba(64, 75, 191, 1);
-}
+} */
    
 
 
@@ -1804,4 +1804,50 @@ font-size: 24px;
                                             gap: 24px;
                                         }
     
+}
+
+.form-label {
+    font-size: 12px;
+    line-height: 1.1;
+    letter-spacing: 0.01em;
+    color: rgba(142, 143, 153, 1);
+}
+.modal-form-agreement {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 24px;
+}
+
+.modal-form-agreement-unchecked {
+    opacity: 1;
+}
+
+
+.modal-form-agreement-box:checked
++ .modal-form-agreement-icon
+> .modal-form-agreement-unchecked {
+    opacity: 0;
+}
+
+.modal-form-agreement-checked {
+    opacity: 0;
+}
+
+.modal-form-agreement-box:checked
++.modal-form-agreement-icon
+>.modal-form-agreement-checked {
+    opacity: 1;
+}
+
+.checkbox {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.modal-link {
+    color: var(--iris-color);
+    text-decoration: underline;
 }
